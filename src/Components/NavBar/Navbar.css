@@ -1,0 +1,43 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(41, 39, 39);
+    padding: 15px 7%;
+    transition: 0.5s;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbar-icons {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+    margin-left: 35%;
+}
+
+.icons {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    text-decoration: underline lightskyblue;
+    font-weight: bold;
+}
+
+.toggle-icon {
+    width: 50px;
+    cursor: pointer;
+}
+
+.dark .navbar {
+    background-color:  rgb(41, 39, 39);
+}

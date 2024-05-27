@@ -1,0 +1,45 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    font-size: 70px;
+    color: black;
+}
+p {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color: black;
+}
+p span {
+    margin-left: 15px;
+    font-weight: bold;
+}
+.links {
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+.icon-button {
+    margin-top: 80px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 40px;
+    border: solid black;
+    border-radius: 100px;
+    border-width: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.dark h1 {
+    color: white;
+}
+.dark h2 {
+    color: white;
+}
+
+.dark p {
+    color: white;
+}
