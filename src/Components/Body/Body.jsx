@@ -1,21 +1,12 @@
 import React, { useEffect, useState } from "react";
 import './Body.css'
+import Typing from "./Typing";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+
 const Body = ({theme, setTheme}) => {
-    const [text, setText] = useState('a Developer');
-
-    useEffect(() => {
-        const intervalId = setInterval(() => {
-            setText(prevText => {
-                return prevText === 'a Developer' ? 'a Freelancer' : 'a Developer';
-            });
-        },2000);
-
-        return () => clearInterval(intervalId);
-    }, []);
 
     const toggle_mode = () => {
         theme == 'light' ? setTheme('dark') : setTheme('light');
@@ -25,7 +16,14 @@ const Body = ({theme, setTheme}) => {
         
         <div>
             <h1>Shreshtha Sharma</h1>
-            <p>I'm <span> {'a Developer'} </span></p>
+            <p>I'm <span><Typing 
+                text={[
+                "a Developer",
+                "a Freelancer",
+                ]}
+                typingSpeed={100}
+                deletingSpeed={50}
+            /></span></p>
 
             <ul className="links">
                 <li>

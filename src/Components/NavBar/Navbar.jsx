@@ -15,13 +15,13 @@ const Navbar = ({theme, setTheme}) => {
         <img src="src\Assets\logo.png" alt="" className="logo"/>
 
         <ul className="navbar-icons">
-            <li className="icons">Home</li>
-            <li className="icons">About</li>
-            <li className="icons">Skills</li>
-            <li className="icons">Education</li>
-            <li className="icons">Experience</li>
-            <li className="icons">Projects</li>
-            <li className="icons">Resume</li>
+            <li className="icons"><a>Home</a></li>
+            <li className="icons"><a>About</a></li>
+            <li className="icons"><a>Skills</a></li>
+            <li className="icons"><a>Education</a></li>
+            <li className="icons"><a>Experience</a></li>
+            <li className="icons"><a>Projects</a></li>
+            <li className="icons"><a>Resume</a></li>
         </ul>
 
         <img onClick={()=>{toggle_mode()}} src={theme == 'light' ? toggle_dark : toggle_light } alt="" className="toggle-icon" />

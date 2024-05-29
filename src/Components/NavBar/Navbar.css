@@ -15,27 +15,32 @@
 }
 
 .navbar-icons {
-    flex: 1;
     list-style: none;
-    text-align: center;
-    margin-left: 35%;
+    display: flex;
+    padding-left: 850px;
 }
-
 .icons {
-    display: inline-block;
-    margin: 10px 20px;
-    font-size: 25px;
-    cursor: pointer;
+    margin : 0 15px;
+    font-size: 20px;
+}
+.icons a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background: white;
+    transition: width 0.3s ease;
 }
 
-.icons:hover{
-    text-decoration: underline lightskyblue;
-    font-weight: bold;
+.icons a:hover::after {
+    width: 100%;
+
 }
 
 .toggle-icon {
     width: 50px;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .dark .navbar {
