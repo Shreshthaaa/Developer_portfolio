@@ -1,8 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Navbar.css'
 import toggle_light from '../../Assets/logo-black.png';
 import toggle_dark from '../../Assets/logo-light.png';
-
 const Navbar = ({theme, setTheme}) => {
 
     const toggle_mode = () => {
@@ -15,8 +15,8 @@ const Navbar = ({theme, setTheme}) => {
         <img src="src\Assets\logo.png" alt="" className="logo"/>
 
         <ul className="navbar-icons">
-            <li className="icons"><a>Home</a></li>
-            <li className="icons"><a>About</a></li>
+            <li className="icons"><Link to="/">Home</Link></li>
+            <li className="icons"><Link to="/about">About</Link></li>
             <li className="icons"><a>Skills</a></li>
             <li className="icons"><a>Education</a></li>
             <li className="icons"><a>Experience</a></li>

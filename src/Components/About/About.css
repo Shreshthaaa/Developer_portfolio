@@ -1,0 +1,20 @@
+.textAbout {
+    padding: 50px;
+}
+.About-container {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    font-size: 25px;
+    padding: 100px 200px 300px 200px;
+    
+}
+
+.about-img {
+    width: 800px;
+    padding-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
