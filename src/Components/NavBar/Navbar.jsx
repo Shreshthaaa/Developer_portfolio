@@ -3,12 +3,7 @@ import { Link } from "react-router-dom";
 import './Navbar.css'
 import toggle_light from '../../Assets/logo-black.png';
 import toggle_dark from '../../Assets/logo-light.png';
-const Navbar = ({theme, setTheme}) => {
-
-    const toggle_mode = () => {
-        theme == 'light' ? setTheme('dark') : setTheme('light');
-    }
-
+const Navbar = () => {
   return (
     <div className="navbar">
 
@@ -19,12 +14,10 @@ const Navbar = ({theme, setTheme}) => {
             <li className="icons"><Link to="/about">About</Link></li>
             <li className="icons"><Link to="/skills">Skills</Link></li>
             <li className="icons"><Link to="/education">Education</Link></li>
-            <li className="icons"><a>Experience</a></li>
+            <li className="icons"><Link to="/experience">Experience</Link></li>
             <li className="icons"><a>Projects</a></li>
-            <li className="icons"><a>Resume</a></li>
+            <li className="icons"><a href="https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view">Resume</a></li>
         </ul>
-
-        <img onClick={()=>{toggle_mode()}} src={theme == 'light' ? toggle_dark : toggle_light } alt="" className="toggle-icon" />
     </div>
   )
 }  

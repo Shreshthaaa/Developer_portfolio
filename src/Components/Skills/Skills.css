@@ -12,7 +12,7 @@ h3{
     font-weight: lighter;
 }
 
-h2{
+.taghead{
     text-align: center;
     margin-top: 50px;
     font-size: 33px;
@@ -36,7 +36,7 @@ h2{
     align-items: center;
 }
 
-p{
+.tag{
     font-size: 25px;
     font-weight: lighter;
     margin: 0px 30px;

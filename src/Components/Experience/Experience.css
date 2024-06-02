@@ -1,0 +1,92 @@
+.exp-head {
+    padding: 50px;
+}
+
+.pos {
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.time {
+    padding-left: 500px;
+    padding-top: 120px;
+    position: relative;
+    width: 50%;
+    left : 0;
+    flex: 1;
+}
+
+.exp-cont {
+    padding-right: 800px;
+    padding-top: 100px;
+    position: relative;
+    width: 50%;
+    left: 10%;
+    flex: 3;
+}
+
+.exp-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the container */
+    gap: 20px;
+}
+
+.experience-main::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: black;
+    top: 210px;
+    left: 40%;
+    margin-left: -3px;
+    z-index: -1;
+    margin-top: 100px;
+}
+
+.pTime {
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background: rgb(29, 97, 139);
+    position: relative;
+    font-size: 15px; 
+    font-weight: bold;
+    /* font-size:medium; */
+    color: white;
+}
+
+.arrow {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 134px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid rgb(29, 97, 139);
+    right: -15px;
+}
+
+.company {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.work {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.exp-logo {
+    position: absolute;
+    width: 2%;
+    border-radius: 50%;
+    left: -106px;
+    top: 135px;
+    z-index: 10;
+}
