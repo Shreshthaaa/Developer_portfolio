@@ -5,14 +5,14 @@ h1 {
     font-size: 70px;
     color: black;
 }
-p {
+.type-effect-text {
     display: flex;
     justify-content: center;
     padding-top: 20px;
     font-size: 50px;
     color: black;
 }
-p span {
+.type-effect-text span {
     margin-left: 15px;
     font-weight: bold;
 }

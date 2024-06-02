@@ -16,7 +16,7 @@ const Body = ({theme, setTheme}) => {
         
         <div>
             <h1>Shreshtha Sharma</h1>
-            <p>I'm <span><Typing 
+            <p className="type-effect-text">I'm <span><Typing 
                 text={[
                 "a Developer",
                 "a Freelancer",

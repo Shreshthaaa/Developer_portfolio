@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-ed {
+    padding: 0px;
+}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.timeline-head {
+    text-align: left;
+}
+
+.timeline-cont {
+    padding: 100px 50px;
+    position: relative;
+    width: 50%;
+}
+.text-box{
+    padding: 20px 30px;
+    background: beige;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;  
+}
+
+.timeline-text {
+    text-align: left; 
+    margin-left: 1px;
+}
+
+.timeline-text1 {
+    margin-left: 0;
+    margin-bottom: 15px;
+}
+
+.leftCont {
+    left : 0;
+}
+
+.rightCont {
+    left: 50%;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 8%;
+    border-radius: 50%;
+    right: -20px;
+    top: 150px;
+    z-index: 10;
+}
+
+.rightCont .timeline-logo {
+    left: -20px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 90%;
+    background: black;
+    top:0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    margin-top: 100px;
+}
+
+.text-box h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.leftContArrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid beige;
+    right: -15px;
+}
+.rightContArrow {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid beige;
+    left: -15px;
+}
