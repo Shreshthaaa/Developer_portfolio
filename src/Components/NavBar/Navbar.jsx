@@ -17,7 +17,7 @@ const Navbar = ({theme, setTheme}) => {
         <ul className="navbar-icons">
             <li className="icons"><Link to="/">Home</Link></li>
             <li className="icons"><Link to="/about">About</Link></li>
-            <li className="icons"><a>Skills</a></li>
+            <li className="icons"><Link to="/skills">Skills</Link></li>
             <li className="icons"><a>Education</a></li>
             <li className="icons"><a>Experience</a></li>
             <li className="icons"><a>Projects</a></li>

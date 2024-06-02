@@ -10,18 +10,19 @@
 }
 
 .logo {
-    width: 100px;
+    margin-left: 50px;
+    width: 70px;
     cursor: pointer;
 }
 
 .navbar-icons {
     list-style: none;
     display: flex;
-    padding-left: 850px;
+    padding-left: 600px;
 }
 .icons {
-    margin : 0 15px;
-    font-size: 20px;
+    margin : 0 18px;
+    font-size: 25px;
 }
 .icons:hover {
     cursor: pointer;

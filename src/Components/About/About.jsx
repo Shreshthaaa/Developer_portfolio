@@ -11,7 +11,6 @@ function About() {
                 <br></br>
                 <br></br>
                 <br></br>
-                <br></br>
                 Extra Information about you, like hobbies and your goals.
                 <br></br>
                 Example Paragraph: I am passionate about my work. Because I love 
