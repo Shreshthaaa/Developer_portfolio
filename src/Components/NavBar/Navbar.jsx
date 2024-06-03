@@ -1,13 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './Navbar.css'
-import toggle_light from '../../Assets/logo-black.png';
-import toggle_dark from '../../Assets/logo-light.png';
 const Navbar = () => {
   return (
     <div className="navbar">
 
-        <img src="src\Assets\logo.png" alt="" className="logo"/>
+        <img src="public\Assets\logo.png" alt="" className="logo"/>
 
         <ul className="navbar-icons">
             <li className="icons"><Link to="/">Home</Link></li>

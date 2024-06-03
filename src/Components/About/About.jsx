@@ -25,7 +25,7 @@ function About() {
                 Being a people's person, I enjoy connecting with others and working together to solve problems.
                 </p>
 
-                <img className="about-img" src="src\Assets\randomHuman.jpg"></img>
+                <img className="about-img" src="public\Assets\randomHuman.JPG"></img>
             </div>
             
         </div>
