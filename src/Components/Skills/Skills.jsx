@@ -1,5 +1,14 @@
 import React from "react";
 import './Skills.css';
+import java_img from './../../../public/Assets/java-icon.png';
+import js_img from './../../../public/Assets/js-icon.png';
+import py_img from './../../../public/Assets/py-icon.jpg';
+import sql_img from './../../../public/Assets/mysql-icon.png';
+import android_img from './../../../public/Assets/android-icon.jpg';
+import react_img from './../../../public/Assets/react-icon.png';
+import nodejs_img from './../../../public/Assets/nodejs-icon.png';
+import git_img from './../../../public/Assets/git-icon.png';
+import docker_img from './../../../public/Assets/docker-logo.png';
 
 function Skills(){
     return(
@@ -11,11 +20,11 @@ function Skills(){
             <div className="main-cont">
                 <h2 className="taghead">Languages & Databases</h2>
                 <div className="imgCont1">
-                    <img className="icon" src="src\Assets\java-icon.png" alt="" />
+                    <img className="icon" src={java_img} alt="" />
                     {/* <img className="icon" src="src\Assets\php-icon.jpg" alt="" /> */}
-                    <img className="icon" src="src\Assets\js-icon.png" alt="" />
-                    <img className="icon" src="src\Assets\py-icon.jpg" alt="" />
-                    <img className="icon" src="src\Assets\mysql-icon.png" alt="" />
+                    <img className="icon" src={js_img} alt="" />
+                    <img className="icon" src={py_img} alt="" />
+                    <img className="icon" src={sql_img} alt="" />
                 </div>
                 <div className="tags">
                     <p className="tag">Java</p>
@@ -27,9 +36,9 @@ function Skills(){
                 <div>
                 <h2 className="taghead">Frameworks & Technologies</h2>
                 <div className="imgCont1">
-                    <img className="icon" src="src\Assets\android-icon.jpg" alt="" />
-                    <img className="icon" src="src\Assets\react-icon.png" alt="" />
-                    <img className="icon" src="src\Assets\nodejs-icon.png" alt="" />
+                    <img className="icon" src={android_img} alt="" />
+                    <img className="icon" src={react_img} alt="" />
+                    <img className="icon" src={nodejs_img} alt="" />
                 </div>
                 <div className="tags">
                     <p className="tag">Android</p>
@@ -39,8 +48,8 @@ function Skills(){
                 <h2 className="taghead">Tools & Platforms</h2>
                 <div className="imgCont1">
                     {/* <img className="icon" src="src\Assets\studio-icon.png" alt="" /> */}
-                    <img className="icon" src="src\Assets\git-icon.png" alt="" />
-                    <img className="icon" src="src\Assets\docker-logo.png" alt="" />
+                    <img className="icon" src={git_img} alt="" />
+                    <img className="icon" src={docker_img} alt="" />
                 </div>
                 <div className="tags">
                     {/* <p className="tag">Android Studio</p> */}

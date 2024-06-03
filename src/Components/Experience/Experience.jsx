@@ -1,5 +1,6 @@
 import React from "react";
 import "./Experience.css";
+import logo_img from './../../../public/Assets/logo.png';
 
 function Experience() {
     return(
@@ -11,7 +12,7 @@ function Experience() {
                 <span className="arrow"></span>
             </div>
             <div className="exp-cont">
-                <img className="exp-logo" src="src\Assets\logo.png"></img>
+                <img className="exp-logo" src={logo_img}></img>
                 <h3 className="pos">Software Engineer</h3>
                 <p className="company">XYZ Ltd - Full time</p>
                 <small>
@@ -28,7 +29,7 @@ function Experience() {
                 <span className="arrow"></span>
             </div>
             <div className="exp-cont">
-                <img className="exp-logo" src="src\Assets\logo.png"></img>
+                <img className="exp-logo" src={logo_img}></img>
                 <h3 className="pos">Software Engineer</h3>
                 <p className="company">XYZ Ltd - Internship</p>
                 <small>
@@ -44,7 +45,7 @@ function Experience() {
                 <span className="arrow"></span>
             </div>
             <div className="exp-cont">
-                <img className="exp-logo" src="src\Assets\logo.png"></img>
+                <img className="exp-logo" src={logo_img}></img>
                 <h3 className="pos">App Developer</h3>
                 <p className="company">ABC Pvt Ltd - Freelance</p>
                 <small>
