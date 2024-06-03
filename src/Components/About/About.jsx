@@ -1,5 +1,6 @@
 import React from "react";
 import './About.css'
+import profile_img from './../../../public/Assets/profile.jpg'
 function About() {
     return (
         <div className="about">
@@ -25,7 +26,7 @@ function About() {
                 Being a people's person, I enjoy connecting with others and working together to solve problems.
                 </p>
 
-                <img className="about-img" src="public\Assets\randomHuman.JPG"></img>
+                <img className="about-img" src={profile_img}></img>
             </div>
             
         </div>
