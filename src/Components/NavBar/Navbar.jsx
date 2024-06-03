@@ -15,7 +15,7 @@ const Navbar = () => {
             <li className="icons"><Link to="/skills">Skills</Link></li>
             <li className="icons"><Link to="/education">Education</Link></li>
             <li className="icons"><Link to="/experience">Experience</Link></li>
-            <li className="icons"><a>Projects</a></li>
+            <li className="icons"><Link to="/projects">Projects</Link></li>
             <li className="icons"><a href="https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view">Resume</a></li>
         </ul>
     </div>

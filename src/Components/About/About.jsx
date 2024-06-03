@@ -5,26 +5,24 @@ function About() {
         <div className="about">
             <h1 className="textAbout">About</h1>
             <div className="About-container">
-                <p className="text">This is where you can describe
-                 about yourself. The more you describe
-                 <br></br> about yourself, the better it is!
+                <p className="text">Hey, I'm Shreshtha Sharma, currently pursuing a 
+                Bachelor's in Computer Science at Scaler School of Technology. 
                 <br></br>
                 <br></br>
                 <br></br>
-                Extra Information about you, like hobbies and your goals.
+                My academic journey has given me a strong foundation in computer science,
+                software development, algorithms, and data structures.
                 <br></br>
-                Example Paragraph: I am passionate about my work. Because I love 
                 <br></br>
-                what I do, I have a steady source of motivation that drives me to do 
+                As the Student President at Scaler, I've developed leadership skills and contributed to our student community.
                 <br></br>
-                my best. In my last job, this passion led me to challenge myself daily 
                 <br></br>
-                and learn new skills that helped me to do better work. For example, 
+                I've actively participated in various projects, applying theoretical knowledge to real-world challenges 
+                and enhancing my problem-solving and collaborative skills. 
+                I'm passionate about leveraging technology to create innovative solutions. 
                 <br></br>
-                I taught myself how to use Photoshop to improve the quality 
                 <br></br>
-                of our photos and graphics. I soon became the go-to person for any design
-                needs.
+                Being a people's person, I enjoy connecting with others and working together to solve problems.
                 </p>
 
                 <img className="about-img" src="src\Assets\randomHuman.jpg"></img>

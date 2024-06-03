@@ -6,6 +6,7 @@ import AboutPage from "./Pages/AboutPage";
 import SkillsPage from "./Pages/SkillsPage";
 import EducationPage from "./Pages/EducationPage";
 import ExperiencePage from "./Pages/ExperiencePage";
+import ProjectPage from "./Pages/ProjectsPage/ProjectPage";
 
 const App = () => {
   
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/skills" element={<SkillsPage/>}/>
         <Route path="/education" element={<EducationPage/>}/>
         <Route path="/experience" element={<ExperiencePage/>} />
+        <Route path="/projects" element={<ProjectPage/>} />
       </Routes>
       </div>
     </Router>

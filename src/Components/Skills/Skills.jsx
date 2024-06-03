@@ -12,14 +12,14 @@ function Skills(){
                 <h2 className="taghead">Languages & Databases</h2>
                 <div className="imgCont1">
                     <img className="icon" src="src\Assets\java-icon.png" alt="" />
-                    <img className="icon" src="src\Assets\php-icon.jpg" alt="" />
+                    {/* <img className="icon" src="src\Assets\php-icon.jpg" alt="" /> */}
                     <img className="icon" src="src\Assets\js-icon.png" alt="" />
                     <img className="icon" src="src\Assets\py-icon.jpg" alt="" />
                     <img className="icon" src="src\Assets\mysql-icon.png" alt="" />
                 </div>
                 <div className="tags">
                     <p className="tag">Java</p>
-                    <p className="tag">PHP</p>
+                    {/* <p className="tag">PHP</p> */}
                     <p className="tag">JavaScript </p>
                     <p className="tag">Python</p>
                     <p className="tag">MySQL</p>
@@ -38,12 +38,12 @@ function Skills(){
                 </div>   
                 <h2 className="taghead">Tools & Platforms</h2>
                 <div className="imgCont1">
-                    <img className="icon" src="src\Assets\studio-icon.png" alt="" />
+                    {/* <img className="icon" src="src\Assets\studio-icon.png" alt="" /> */}
                     <img className="icon" src="src\Assets\git-icon.png" alt="" />
                     <img className="icon" src="src\Assets\docker-logo.png" alt="" />
                 </div>
                 <div className="tags">
-                    <p className="tag">Android Studio</p>
+                    {/* <p className="tag">Android Studio</p> */}
                     <p className="tag">Git</p>
                     <p className="tag"  >Docker</p>
                 </div> 
