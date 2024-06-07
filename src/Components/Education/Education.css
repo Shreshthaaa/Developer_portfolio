@@ -5,8 +5,8 @@
 }
 .timeline {
     position: relative;
-    max-width: 1200px;
-    margin: 100px auto;
+    max-width: 90rem;
+    margin: 4rem auto;
 }
 
 .timeline-head {
@@ -14,26 +14,26 @@
 }
 
 .timeline-cont {
-    padding: 100px 50px;
+    padding: 6.7rem 4rem;
     position: relative;
     width: 50%;
 }
 .text-box{
-    padding: 20px 30px;
+    padding: 1.7rem 3rem;
     background: beige;
     position: relative;
-    border-radius: 6px;
-    font-size: 15px;  
+    border-radius: 0.4rem;
+    font-size: 1rem;  
 }
 
 .timeline-text {
     text-align: left; 
-    margin-left: 1px;
+    margin-left: 0.1rem;
 }
 
 .timeline-text1 {
     margin-left: 0;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .leftCont {
@@ -47,56 +47,56 @@
 .timeline-logo {
     position: absolute;
     width: 10%;
-    right: -28px;
-    top: 150px;
+    right: -2.2rem;
+    top: 9.3rem;
     z-index: 10;
 }
 
 .rightCont .timeline-logo {
-    left: -28px;
+    left: -2.1rem;
     width: 9%;
 }
 
 .timeline::after {
     content: '';
     position: absolute;
-    width: 4px;
+    width: 0.25rem;
     height: 90%;
     background: black;
     top:0;
     left: 50%;
-    margin-left: -3px;
+    margin-left: -0.2rem;
     z-index: -1;
-    margin-top: 100px;
+    margin-top: 7rem;
 }
 
 .text-box h2 {
     font-weight: 600;
-    margin-bottom: 30px;
-    margin-top: 0px;
+    margin-bottom: 2rem;
+    margin-top: 0rem;
 }
 
 .leftContArrow {
     height: 0;
     width: 0;
     position: absolute;
-    top: 60px;
+    top: 3rem;
     z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid beige;
-    right: -15px;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-left: 2rem solid beige;
+    right: -1rem;
 }
 .rightContArrow {
     height: 0;
     width: 0;
     position: absolute;
-    top: 60px;
+    top: 3rem;
     z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid beige;
-    left: -15px;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-right: 2rem solid beige;
+    left: -1rem;
 }
 
 .text-ed {

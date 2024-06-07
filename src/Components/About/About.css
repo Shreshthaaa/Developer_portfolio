@@ -1,5 +1,5 @@
 .textAbout {
-    padding: 50px;
+    padding: 5rem;
 }
 .About-container {
     display: flex;
@@ -7,14 +7,14 @@
 }
 
 .text {
-    font-size: 25px;
-    padding: 100px 200px 300px 200px;
+    font-size: 1.7rem;
+    padding: 0rem 10rem 20rem 6rem;
     
 }
 
 .about-img {
-    width: 800px;
-    padding-right: 300px;
-    padding-top: 100px;
-    padding-bottom: 300px;
+    width: 40rem;
+    padding-right: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 20rem;
 }

@@ -1,21 +1,21 @@
 .text-skills {
-    padding: 50px;
+    padding: 3rem;
 }
 
 .main-cont {
-    padding-bottom: 100px;
+    padding-bottom: 10rem;
 }
 
 h3{
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: lighter;
 }
 
 .taghead{
     text-align: center;
-    margin-top: 50px;
-    font-size: 33px;
+    margin-top: 3rem;
+    font-size: 2rem;
     font-weight: light;
 }
 
@@ -26,8 +26,8 @@ h3{
 }
 
 .icon {
-    width: 90px;
-    margin: 15px 20px 0px 20px;
+    width: 5rem;
+    margin: 1rem 2rem 0rem 2rem;
 }
 
 .tags {
@@ -37,7 +37,7 @@ h3{
 }
 
 .tag{
-    font-size: 25px;
+    font-size: 1.8rem;
     font-weight: lighter;
-    margin: 0px 30px;
+    margin: 0rem 1.8rem;
 }

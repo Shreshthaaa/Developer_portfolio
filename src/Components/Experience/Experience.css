@@ -1,17 +1,17 @@
 .exp-head {
-    padding: 50px;
+    padding: 2rem;
 }
 
 .pos {
     text-align: left;
     font-weight: bold;
-    padding-bottom: 20px;
-    font-size: 50px;
+    padding-bottom: 1.2rem;
+    font-size: 3rem;
 }
 
 .time {
-    padding-left: 500px;
-    padding-top: 120px;
+    padding-left: 31.3rem;
+    padding-top: 6.8rem;
     position: relative;
     width: 50%;
     left : 0;
@@ -19,8 +19,8 @@
 }
 
 .exp-cont {
-    padding-right: 800px;
-    padding-top: 100px;
+    padding-right: 50rem;
+    padding-top: 7rem;
     position: relative;
     width: 50%;
     left: 10%;
@@ -30,63 +30,63 @@
 .exp-container {
     display: flex;
     align-items: flex-start; /* Align items at the start of the container */
-    gap: 20px;
+    gap: 1.2rem;
 }
 
 .experience-main::after {
     content: '';
     position: absolute;
-    width: 4px;
+    width: 0.2rem;
     height: 100%;
     background: black;
-    top: 210px;
+    top: 12rem;
     left: 40%;
-    margin-left: -3px;
+    margin-left: -0.2rem;
     z-index: -1;
-    margin-top: 100px;
+    margin-top: 7rem;
 }
 
 .pTime {
-    padding-left: 10px;
-    padding-right: 25px;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-left: 0.7rem;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     background: rgb(29, 97, 139);
     position: relative;
-    font-size: 15px; 
+    font-size: 1rem; 
     font-weight: bold;
     /* font-size:medium; */
     color: white;
 }
 
 .arrow {
-    height: 10px;
-    width: 10px;
+    height: 1rem;
+    width: 0.8rem;
     position: absolute;
-    top: 134px;
+    top: 8rem;
     z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid rgb(29, 97, 139);
-    right: -15px;
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+    border-left: 1rem solid rgb(29, 97, 139);
+    right: -1rem;
 }
 
 .company {
     font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
 }
 
 .work {
-    font-size: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
+    font-size: 1.3rem;
+    padding-bottom: 1.6rem;
+    padding-left: 1rem;
 }
 .exp-logo {
     position: absolute;
     width: 2%;
     border-radius: 50%;
-    left: -106px;
-    top: 135px;
+    left: -6.6rem;
+    top: 8.2rem;
     z-index: 10;
 }
