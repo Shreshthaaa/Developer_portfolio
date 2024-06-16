@@ -1,9 +1,10 @@
 .heading {
     display: flex;
     justify-content: center;
-    padding-top: 17rem;
+    align-items: center;
+    padding-top: 15rem;
     font-size: 3rem;
-    color: black;
+    font-weight: bold;
 }
 .type-effect-text {
     display: flex;
