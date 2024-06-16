@@ -13,7 +13,7 @@ import docker_img from './../../../public/Assets/docker-logo.png';
 function Skills(){
     return(
         <div className="skills-cont">
-            <h1 className="text-skills">Skills</h1>
+            <div className="text-skills">Skills</div>
             <h3>I love to learn new things and experiment with new technologies.
                 <br></br>
                 These are some of the major languages, technologies, tools and platforms I have worked with:</h3>

@@ -4,7 +4,7 @@ import profile_img from './../../../public/Assets/profile.jpg'
 function About() {
     return (
         <div className="about">
-            <h1 className="textAbout">About</h1>
+            <div className="textAbout">About</div>
             <div className="About-container">
                 <p className="text">Hey, I'm Shreshtha Sharma, currently pursuing a 
                 Bachelor's in Computer Science at Scaler School of Technology. 

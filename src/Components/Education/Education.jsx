@@ -6,7 +6,7 @@ import kv_img from './../../../public/Assets/kv-logo.jpg';
 function Education() {
     return(
         <div className="timeline">
-            <h1 className="text-ed">Education</h1>
+            <div className="text-ed">Education</div>
             <div className="timeline-cont leftCont">
                 <img className="timeline-logo" src={scaler_img}></img>
                 <div className="text-box">

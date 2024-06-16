@@ -1,5 +1,10 @@
 .text-skills {
-    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    font-size: 5rem;
+    font-weight: bold;
 }
 
 .main-cont {

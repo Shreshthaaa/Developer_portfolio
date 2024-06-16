@@ -1,8 +1,8 @@
-h1 {
+.heading {
     display: flex;
     justify-content: center;
     padding-top: 17rem;
-    font-size: 4rem;
+    font-size: 3rem;
     color: black;
 }
 .type-effect-text {

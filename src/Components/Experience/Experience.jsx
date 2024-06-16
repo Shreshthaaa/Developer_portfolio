@@ -5,7 +5,7 @@ import logo_img from './../../../public/Assets/logo.png';
 function Experience() {
     return(
         <div className="experience-main">
-            <h1 className="exp-head">Experience</h1>
+            <div className="exp-head">Experience</div>
             <div className="exp-container">
             <div className="time">
                 <p className="pTime">06/20XX - Present</p>
